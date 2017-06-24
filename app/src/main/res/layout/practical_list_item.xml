@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/practicalTime"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="9:00" />
+
+    <TextView
+        android:id="@+id/subjectB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/practicalTime"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="OS" />
+
+    <TextView
+        android:id="@+id/teacherB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subjectB1"
+        android:layout_toEndOf="@id/practicalTime"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="Prof.Name Surname" />
+
+    <TextView
+        android:id="@+id/roomB1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="CR1" />
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/teacherB1"
+        android:layout_toEndOf="@id/practicalTime"
+        android:background="#7000" />
+
+    <TextView
+        android:id="@+id/subjectB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator1"
+        android:layout_toEndOf="@id/practicalTime"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Networks" />
+
+    <TextView
+        android:id="@+id/teacherB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subjectB2"
+        android:layout_toEndOf="@id/practicalTime"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="Prof.Name Surname" />
+
+    <TextView
+        android:id="@+id/roomB2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/separator1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="CR2" />
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/teacherB2"
+        android:layout_toEndOf="@id/practicalTime"
+        android:background="#7000" />
+
+    <TextView
+        android:id="@+id/subjectB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator2"
+        android:layout_toEndOf="@id/practicalTime"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="MicroProcessor" />
+
+    <TextView
+        android:id="@+id/teacherB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subjectB3"
+        android:layout_toEndOf="@id/practicalTime"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="Prof.Name Surname" />
+
+    <TextView
+        android:id="@+id/roomB3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/separator2"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="CR3" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/teacherB3"
+        android:background="#7000" />
+
+</RelativeLayout>
