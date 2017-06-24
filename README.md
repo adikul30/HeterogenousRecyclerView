@@ -1,3 +1,3 @@
 # HeterogenousRecyclerView
 
-An Example of a RecylerView with more 2 different layouts.
+An Example of a RecylerView with 2 different layouts.
