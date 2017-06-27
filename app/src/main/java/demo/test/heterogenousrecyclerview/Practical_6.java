@@ -4,7 +4,7 @@ package demo.test.heterogenousrecyclerview;
  * Created by adicool on 24/6/17.
  */
 
-public class PracticalsModel
+public class Practical_6
 {
 	String subjectB1, subjectB2, subjectB3, teacherB1, teacherB2, teacherB3, time, roomB1, roomB2, roomB3;
 	String subjectB4, subjectB5, subjectB6;
@@ -13,61 +13,7 @@ public class PracticalsModel
 	
 	public static int COUNT;
 	
-	public PracticalsModel(String subjectB1, String subjectB2, String subjectB3, String teacherB1, String teacherB2, String teacherB3, String time, String roomB1, String roomB2, String roomB3)
-	{
-		this.subjectB1 = subjectB1;
-		this.subjectB2 = subjectB2;
-		this.subjectB3 = subjectB3;
-		this.teacherB1 = teacherB1;
-		this.teacherB2 = teacherB2;
-		this.teacherB3 = teacherB3;
-		this.time = time;
-		this.roomB1 = roomB1;
-		this.roomB2 = roomB2;
-		this.roomB3 = roomB3;
-		COUNT=3;
-	}
-	
-	public PracticalsModel(String subjectB1, String subjectB2, String subjectB3, String subjectB4, String teacherB1, String teacherB2, String teacherB3, String teacherB4, String time, String roomB1, String roomB2, String roomB3, String roomB4)
-	{
-		this.subjectB1 = subjectB1;
-		this.subjectB2 = subjectB2;
-		this.subjectB3 = subjectB3;
-		this.subjectB4 = subjectB4;
-		this.teacherB1 = teacherB1;
-		this.teacherB2 = teacherB2;
-		this.teacherB3 = teacherB3;
-		this.teacherB4 = teacherB4;
-		this.time = time;
-		this.roomB1 = roomB1;
-		this.roomB2 = roomB2;
-		this.roomB3 = roomB3;
-		this.roomB4 = roomB4;
-		COUNT = 4;
-	}
-	
-	public PracticalsModel(String subjectB1, String subjectB2, String subjectB3, String subjectB4, String subjectB5, String teacherB1, String teacherB2, String teacherB3, String teacherB4, String teacherB5, String time, String roomB1, String roomB2, String roomB3, String roomB4, String roomB5)
-	{
-		this.subjectB1 = subjectB1;
-		this.subjectB2 = subjectB2;
-		this.subjectB3 = subjectB3;
-		this.subjectB4 = subjectB4;
-		this.subjectB5 = subjectB5;
-		this.teacherB1 = teacherB1;
-		this.teacherB2 = teacherB2;
-		this.teacherB3 = teacherB3;
-		this.teacherB4 = teacherB4;
-		this.teacherB5 = teacherB5;
-		this.time = time;
-		this.roomB1 = roomB1;
-		this.roomB2 = roomB2;
-		this.roomB3 = roomB3;
-		this.roomB4 = roomB4;
-		this.roomB5 = roomB5;
-		COUNT = 5;
-	}
-	
-	public PracticalsModel(String subjectB1, String subjectB2, String subjectB3, String subjectB4, String subjectB5, String subjectB6, String teacherB1, String teacherB2, String teacherB3, String teacherB4, String teacherB5, String teacherB6, String time, String roomB1, String roomB2, String roomB3, String roomB4, String roomB5, String roomB6)
+	public Practical_6(String subjectB1, String subjectB2, String subjectB3, String subjectB4, String subjectB5, String subjectB6, String teacherB1, String teacherB2, String teacherB3, String teacherB4, String teacherB5, String teacherB6, String time, String roomB1, String roomB2, String roomB3, String roomB4, String roomB5, String roomB6)
 	{
 		this.subjectB1 = subjectB1;
 		this.subjectB2 = subjectB2;
@@ -88,7 +34,6 @@ public class PracticalsModel
 		this.roomB4 = roomB4;
 		this.roomB5 = roomB5;
 		this.teacherB6 = teacherB6;
-		COUNT = 6;
 	}
 	
 	public String getSubjectB1()

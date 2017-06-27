@@ -6,7 +6,7 @@
                 android:padding = "10dp">
 	
 	<TextView
-	 android:id = "@+id/practicalTime"
+	 android:id = "@+id/practicalTime_5"
 	 android:layout_width = "60dp"
 	 android:layout_height = "wrap_content"
 	 android:layout_alignParentStart = "true"
@@ -17,29 +17,29 @@
 	 tools:text = "9:00" />
 	
 	<TextView
-	 android:id = "@+id/subjectB1"
+	 android:id = "@+id/subjectB1_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_toEndOf = "@id/practicalTime"
-	 android:padding = "8dp"
+	 android:layout_toEndOf = "@id/practicalTime_5"
+	 android:paddingStart="8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "24sp"
 	 android:textStyle = "bold"
 	 tools:text = "OS" />
 	
 	<TextView
-	 android:id = "@+id/teacherB1"
+	 android:id = "@+id/teacherB1_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/subjectB1"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/subjectB1_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "12sp"
 	 tools:text = "Prof.Name Surname" />
 	
 	<TextView
-	 android:id = "@+id/roomB1"
+	 android:id = "@+id/roomB1_5"
 	 android:layout_width = "55dp"
 	 android:layout_height = "55dp"
 	 android:layout_alignParentEnd = "true"
@@ -50,19 +50,19 @@
 	 tools:text = "CR1" />
 	
 	<View
-	 android:id = "@+id/separator1"
+	 android:id = "@+id/separator1_5"
 	 android:layout_width = "match_parent"
 	 android:layout_height = "1dp"
-	 android:layout_below = "@id/teacherB1"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/teacherB1_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:background = "#7000" />
 	
 	<TextView
-	 android:id = "@+id/subjectB2"
+	 android:id = "@+id/subjectB2_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/separator1"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/separator1_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "24sp"
@@ -70,22 +70,22 @@
 	 tools:text = "Networks" />
 	
 	<TextView
-	 android:id = "@+id/teacherB2"
+	 android:id = "@+id/teacherB2_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/subjectB2"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/subjectB2_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "12sp"
 	 tools:text = "Prof.Name Surname" />
 	
 	<TextView
-	 android:id = "@+id/roomB2"
+	 android:id = "@+id/roomB2_5"
 	 android:layout_width = "55dp"
 	 android:layout_height = "55dp"
 	 android:layout_alignParentEnd = "true"
-	 android:layout_below = "@id/separator1"
+	 android:layout_below = "@id/separator1_5"
 	 android:gravity = "center"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "18sp"
@@ -93,19 +93,19 @@
 	 tools:text = "CR2" />
 	
 	<View
-	 android:id = "@+id/separator2"
+	 android:id = "@+id/separator2_5"
 	 android:layout_width = "match_parent"
 	 android:layout_height = "1dp"
-	 android:layout_below = "@id/teacherB2"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/teacherB2_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:background = "#7000" />
 	
 	<TextView
-	 android:id = "@+id/subjectB3"
+	 android:id = "@+id/subjectB3_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/separator2"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/separator2_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "24sp"
@@ -113,22 +113,22 @@
 	 tools:text = "MicroProcessor3" />
 	
 	<TextView
-	 android:id = "@+id/teacherB3"
+	 android:id = "@+id/teacherB3_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/subjectB3"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/subjectB3_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "12sp"
 	 tools:text = "Prof.Name3 Surname3" />
 	
 	<TextView
-	 android:id = "@+id/roomB3"
+	 android:id = "@+id/roomB3_5"
 	 android:layout_width = "55dp"
 	 android:layout_height = "55dp"
 	 android:layout_alignParentEnd = "true"
-	 android:layout_below = "@id/separator2"
+	 android:layout_below = "@id/separator2_5"
 	 android:gravity = "center"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "18sp"
@@ -136,156 +136,98 @@
 	 tools:text = "CR3" />
 	
 	<View
-	 android:id = "@+id/separator3"
+	 android:id = "@+id/separator3_5"
 	 android:layout_width = "match_parent"
 	 android:layout_height = "1dp"
-	 android:layout_below = "@id/teacherB3"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/teacherB3_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:background = "#7000" />
 	
 	
 	<TextView
-	 android:id = "@+id/subjectB4"
+	 android:id = "@+id/subjectB4_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/separator3"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/separator3_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "24sp"
 	 android:textStyle = "bold"
-	 android:visibility = "invisible"
 	 tools:text = "MicroProcessor4" />
 	
 	<TextView
-	 android:id = "@+id/teacherB4"
+	 android:id = "@+id/teacherB4_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/subjectB4"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/subjectB4_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "12sp"
-	 android:visibility = "invisible"
 	 tools:text = "Prof.Name4 Surname4" />
 	
 	<TextView
-	 android:id = "@+id/roomB4"
+	 android:id = "@+id/roomB4_5"
 	 android:layout_width = "55dp"
 	 android:layout_height = "55dp"
 	 android:layout_alignParentEnd = "true"
-	 android:layout_below = "@id/separator3"
+	 android:layout_below = "@id/separator3_5"
 	 android:gravity = "center"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "18sp"
 	 android:textStyle = "bold"
-	 android:visibility = "invisible"
 	 tools:text = "CR4" />
 	
 	<View
-	 android:id = "@+id/separator4"
+	 android:id = "@+id/separator4_5"
 	 android:layout_width = "match_parent"
 	 android:layout_height = "1dp"
-	 android:layout_below = "@id/teacherB4"
-	 android:layout_toEndOf = "@id/practicalTime"
-	 android:visibility="invisible"
+	 android:layout_below = "@id/teacherB4_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:background = "#7000" />
 	
 	
 	<TextView
-	 android:id = "@+id/subjectB5"
+	 android:id = "@+id/subjectB5_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/separator4"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/separator4_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "24sp"
 	 android:textStyle = "bold"
-	 android:visibility = "invisible"
 	 tools:text = "MicroProcessor5" />
 	
 	<TextView
-	 android:id = "@+id/teacherB5"
+	 android:id = "@+id/teacherB5_5"
 	 android:layout_width = "wrap_content"
 	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/subjectB5"
-	 android:layout_toEndOf = "@id/practicalTime"
+	 android:layout_below = "@id/subjectB5_5"
+	 android:layout_toEndOf = "@id/practicalTime_5"
 	 android:padding = "8dp"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "12sp"
-	 android:visibility = "invisible"
 	 tools:text = "Prof.Name5 Surname5" />
 	
 	<TextView
-	 android:id = "@+id/roomB5"
+	 android:id = "@+id/roomB5_5"
 	 android:layout_width = "55dp"
 	 android:layout_height = "55dp"
 	 android:layout_alignParentEnd = "true"
-	 android:layout_below = "@id/separator4"
+	 android:layout_below = "@id/separator4_5"
 	 android:gravity = "center"
 	 android:textColor = "@android:color/black"
 	 android:textSize = "18sp"
 	 android:textStyle = "bold"
-	 android:visibility = "invisible"
 	 tools:text = "CR5" />
 	
 	<View
-	 android:id = "@+id/separator5"
+	 android:id = "@+id/separator5_5"
 	 android:layout_width = "match_parent"
 	 android:layout_height = "1dp"
-	 android:layout_below = "@id/teacherB5"
-	 android:layout_toEndOf = "@id/practicalTime"
-	 android:background = "#7000"
-	 android:visibility="invisible"/>
-	
-	
-	<TextView
-	 android:id = "@+id/subjectB6"
-	 android:layout_width = "wrap_content"
-	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/separator5"
-	 android:layout_toEndOf = "@id/practicalTime"
-	 android:padding = "8dp"
-	 android:textColor = "@android:color/black"
-	 android:textSize = "24sp"
-	 android:textStyle = "bold"
-	 android:visibility = "invisible"
-	 tools:text = "MicroProcessor6" />
-	
-	<TextView
-	 android:id = "@+id/teacherB6"
-	 android:layout_width = "wrap_content"
-	 android:layout_height = "wrap_content"
-	 android:layout_below = "@id/subjectB6"
-	 android:layout_toEndOf = "@id/practicalTime"
-	 android:padding = "8dp"
-	 android:textColor = "@android:color/black"
-	 android:textSize = "12sp"
-	 android:visibility = "invisible"
-	 tools:text = "Prof.Name6 Surname6" />
-	
-	<TextView
-	 android:id = "@+id/roomB6"
-	 android:layout_width = "55dp"
-	 android:layout_height = "55dp"
-	 android:layout_alignParentEnd = "true"
-	 android:layout_below = "@id/separator5"
-	 android:gravity = "center"
-	 android:textColor = "@android:color/black"
-	 android:textSize = "18sp"
-	 android:textStyle = "bold"
-	 android:visibility = "invisible"
-	 tools:text = "CR6" />
-	
-	<View
-	 android:id = "@+id/separator6"
-	 android:layout_width = "match_parent"
-	 android:layout_height = "1dp"
-	 android:layout_below = "@id/teacherB6"
-	 android:layout_toEndOf = "@id/practicalTime"
-	 android:visibility="invisible"
+	 android:layout_below = "@id/teacherB5_5"
 	 android:background = "#7000" />
-
-
+	
 </RelativeLayout>
